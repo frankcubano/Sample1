@@ -5,6 +5,8 @@ namespace Sample1
         public Form1()
         {
             InitializeComponent();
+            FAuth authForm = new FAuth();
+            authForm.ShowDialog(); // Mostrar FAuth de manera modal
         }
     }
 }
